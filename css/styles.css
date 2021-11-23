@@ -1,0 +1,53 @@
+body {
+    box-sizing: border-box;
+}
+.container {
+    margin: 10px auto;
+    padding: 10px;
+}
+.row h1 {
+    font-size: 1.2em;
+    text-align: center;
+}
+#box {
+    background-color: gray;
+    border: 3px solid white;
+}
+div h2 {
+    text-align: center;
+    color: black;
+    font-size: 1em;
+}
+div p{
+    text-align: left;
+    font-size: .8em;
+}
+.navbar {
+    background-color: gray;
+    border: 1px solid black;
+    color: black;
+    border-radius: 0;
+}
+.navbar-brand span {
+    color: black;
+    font-size: 1.2em;
+}
+.navbar-nav {
+    background-color: white;
+    text-align:center;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar, hr {
+    border: 1px solid black;
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 80%;
+    }
+    .navbar-nav {
+        display: none;
+    }
+    hr {
+        width: 80%;
+    }
+ }
